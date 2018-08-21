@@ -1,0 +1,33 @@
+body{
+    background: url(../images/LOGIN-1.jpeg);
+	background-color: #e1ebed;
+    background-repeat: no-repeat; 
+    background-size: cover;  
+    
+}
+
+.vertical-offset-100{
+    padding-top:10%;
+    border-radius: 30px;
+}
+#btn-login {
+    color: #fff;
+    background-color: #a9a781 ;
+    border-color: #a9a781;
+	border-radius: 25px;
+
+    transition: 500ms;
+}
+
+#btn-login:focus {
+	outline: none;
+}
+
+#btn-login:hover {
+	opacity: 0.9;
+
+}
+.panel {
+	border-radius: 30px;
+	color: #737259;
+}

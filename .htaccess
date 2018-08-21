@@ -1,0 +1,10 @@
+RewriteEngine On
+
+#remove .php extention
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^([^\.]+)$ $1.php [NC,L]
+RewriteRule ^/college index.php [NC,L]
+RewriteRule ^home$ index.php [NC,L]
+RewriteRule ^administrator$ administrator.php [NC,L]
+RewriteRule ^school$ school.php [NC,L]
+RewriteRule ^logout$ logout.php [NC,L]
