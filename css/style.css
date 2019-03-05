@@ -28,7 +28,11 @@ body {
 .navbar-static-top {
     width: 100%;
     padding: 0 7.5%;
+    border-radius: 8px;
 
+}
+.navbar-right img {
+    border-radius: 10px;
 }
 
 
@@ -36,8 +40,50 @@ body {
     margin-top: 20px;
 }
 
+.display-student, .display-course {
+    padding: 6px;
+}
 
+.displaying-card img, .displaying-card span {
+    width: 45%;
+    max-height: 100px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    font-size: 15px;
+}
 
+.course-card-body, .admin-card-body {
+    display: flex;
+    justify-content: space-around;
+    max-width: 250px;
+}
+.course_image img, .admin_image img {
+    border-radius: 10px;
+    max-height: 300px;
+    margin-top: 20px;
+}
+.course_students {
+    margin-top: 20px;
+}
+
+.admin-card-body img {
+    max-width: 100px;
+    min-height: 80px;
+    border-radius: 50%;
+}
+.admin-card-body span {
+    font-size: 16px;
+    margin-left: 4px;
+}
+
+.admins-area {
+    width: 30%;
+}
+.admin-cards {
+    width: 60%;
+    margin-left: 8%;
+}
 
 
 
@@ -52,6 +98,29 @@ body {
 .admin-add{
     display: none;
 }
+.student-info div,
+.student-edit div,
+.student-add div,
+.course-info div,
+.course-edit div,
+.course-add div,
+.admin-info div,
+.admin-edit div,
+.admin-add div {
+    margin-top: 5px;
+}
+
+.student-info button,
+.student-edit button,
+.student-add button,
+.course-info button,
+.course-edit button,
+.course-add button,
+.admin-info button,
+.admin-edit button,
+.admin-add button {
+    margin-top: 20px;
+    }
 
 .card{
     cursor: pointer;
